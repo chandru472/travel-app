@@ -22,7 +22,7 @@ import Map from './Component/Map/Map';
 function App() {
   return (
     <div className="" style={{ fontFamily: '"League spartan",sans-serif' }}>
-      {/* <Routes>
+      <Routes>
         <Route path='/' element={<Hero />} />
         <Route path='/best-selling' element={<Best_Selling />} />
         <Route path='/Packages' element={<Packages />} />
@@ -41,8 +41,8 @@ function App() {
         <Route path='/Charming-Paris/' element={<Charming_Paris />} />
         <Route path='/Karismatic-Kerela/' element={<Karismatic_Kerela />} />
         <Route path='/Best-of-orissa/' element={<Best_of_orissa />} />
-      </Routes> */}
-      <Map/>
+      </Routes>
+      
     </div>
   );
 }
