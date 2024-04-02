@@ -42,6 +42,7 @@ function App() {
         <Route path='/Karismatic-Kerela/' element={<Karismatic_Kerela />} />
         <Route path='/Best-of-orissa/' element={<Best_of_orissa />} />
       </Routes>
+      <Map/>
       
     </div>
   );
